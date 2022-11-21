@@ -8,15 +8,18 @@ body{
     font-family: Barlow;
     margin:20px;
     font-weight: 400;
-    background-color:hsl(207, 33%, 95%);
+    background-color: white;
     min-height: 100vh;
 }
 .inner{
-    margin-right: 11%;
-    margin-left: 11%;
-    margin-bottom : 11%;
+    background-color: hsl(207, 33%, 95%);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.third{
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top:30px;
-    
 }
 #illustration{
     width: 30%;
