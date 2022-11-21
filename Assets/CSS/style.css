@@ -1,0 +1,25 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+body{
+    background-color:hsl(207, 33%, 95%);
+    margin:20px;
+}
+header nav{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    list-style: none;
+}
+header nav li:hover{
+    background-color:hsl(230, 29%, 20%);
+}
+#commune{
+    left:0;
+    position: absolute;
+    margin-left: 20px;
+}
